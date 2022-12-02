@@ -9,7 +9,7 @@ h1{
 }
 
 .f-2{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 
@@ -19,21 +19,40 @@ h1{
     h1{
         font-size: 1.5rem;
     }
+
+    .m{
+        margin-top: 10px;
+    }
+
+    .f-2{
+        font-size: 1rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .m{
+        margin-top: 10px;
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .m{
+        margin-top: 10px;
+    }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    .m{
+        margin-top: 40px;
+    }
+    .f-2{
+        font-size: 2rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
