@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="Asseets/Css/bootstrap/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="Asseets/Css/style.css">
+
+    <!--jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -42,11 +45,12 @@
                     <form action="">
                         <div class="row mb-3">
                             <div class="col-sm-12 col-md-6">
-                                <input type="text" name="" id="" placeholder="enter your name" class="form-control">
+                                <input type="text" name="" id="name" placeholder="enter your name" class="form-control">
+                                <span id="errorName" class="text-danger"></span>
                             </div>
                         </div>
 
-                        <input type="button" value="start quiz" class="btn btn-primary">
+                        <input type="button" value="start quiz" class="btn btn-primary" id="userName">
                     </form>
                 </div>
 

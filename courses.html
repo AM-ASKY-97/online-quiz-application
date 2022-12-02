@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="Asseets/Css/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="Asseets/Css/style.css">
+
+    <!--jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://repository-images.githubusercontent.com/516792546/eb811d0b-7268-480b-a7fe-30b2993b9b8f"
+                        alt="Logo" width="30" height="25" class="d-inline-block align-text-top">
+                    Online Quiz
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-3">
+        <p class="h5 f-2">Hello <span id="uName" class="text-primary"></span> Test your skills with these quizzes.</p>
+        <hr>
+
+        <div class="row">
+            <div class="col-12 col-md-8 mt-5">
+                <p class="h6 f-2 text-danger">The Quiz</p>
+
+                <p>Each quiz contains 25-40 questions, you get 1 point for each correct answer, at the end of each quiz
+                    you get your total score.</p>
+
+                <p>When you finish the quiz, you can go through each question with the correct answer.</p>
+            </div>
+
+            <div class="col-4 d-sm-none d-md-block">
+                <div class="text-center">
+                    <img src="Asseets/Images/20943839.png" alt="" class="img-fluid" width="250px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!--HTML-->
+            <div class="col-12 col-md-3 mb-3">
+                <div class="card">
+                    <img src="Asseets/Images/html.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!--END HTML-->
+
+
+            <!--HTML-->
+            <div class="col-12 col-md-3 mb-3">
+                <div class="card">
+                    <img src="Asseets/Images/html.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!--END HTML-->
+
+
+            <!--HTML-->
+            <div class="col-12 col-md-3 mb-3">
+                <div class="card">
+                    <img src="Asseets/Images/html.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!--END HTML-->
+
+            <!--HTML-->
+            <div class="col-12 col-md-3 mb-3">
+                <div class="card">
+                    <img src="Asseets/Images/html.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!--END HTML-->
+
+        </div>
+    </div>
+    <!--JavaScript File-->
+    <script src="Asseets/Js/script.js"></script>
+    <script src="Asseets/Css/bootstrap/js/"></script>
+
+
+    <script>
+        var myValue = localStorage.getItem("myValue");
+        document.getElementById('uName').innerHTML = myValue;
+    </script>
+</body>
+
+</html>
