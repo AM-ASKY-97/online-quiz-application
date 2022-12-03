@@ -1,65 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,500;1,500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,500;1,500&display=swap');
 
 * {
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 2rem;
 }
 
-.f-2{
+.f-2 {
     font-size: 2rem;
 }
 
-.img-res{
-    width:250px;
+.img-res {
+    width: 250px;
 }
 
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    h1{
+    h1 {
         font-size: 1.5rem;
     }
 
-    .m{
+    .m {
         margin-top: 10px;
     }
 
-    .f-2{
-        font-size: 1.5rem;
+    .f-2 {
+        font-size: 1rem;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .m{
+    .m {
         margin-top: 10px;
+    }
+
+    .f-2 {
+        font-size: 1rem;
     }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .m{
+    .m {
         margin-top: 10px;
     }
-    
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .m{
+    .m {
         margin-top: 40px;
     }
-    .f-2{
+
+    .f-2 {
         font-size: 2rem;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}
