@@ -33,9 +33,15 @@
     <main>
         <div class="container">
             <div class="row mt-3">
+
+                <div class="col-sm-12 col-md-6 text-center p-3 d-sm-block d-md-none">
+                    <img src="Asseets/Images/5210980.jpg" alt="" class="img-fluid rounded" width="350px">
+                </div>
+
                 <div class="col-sm-12 col-md-6 mb-3">
 
-                    <h2>Wel come</h2>
+                    <h2 class="d-none d-md-block">Wel come</h2>
+                    <h2 class="font-monospace d-md-none">Wel come...</h2>
 
                     <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi cum est necessitatibus
                         aut
@@ -45,17 +51,17 @@
                     <form action="">
                         <div class="row mb-3">
                             <div class="col-sm-12 col-md-6">
-                                <input type="text" name="" id="name" placeholder="enter your name" class="form-control">
+                                <input type="text" name="" id="name" placeholder="enter your name" class="form-control" oninput="myInput()">
                                 <span id="errorName" class="text-danger"></span>
                             </div>
                         </div>
 
-                        <input type="button" value="start quiz" class="btn btn-primary" id="userName">
+                        <input type="button" value="Start Quiz" class="btn btn-primary" id="userName">
                     </form>
                 </div>
 
-                <div class="col-sm-12 col-md-6 text-center bg-light p-3">
-                    <img src="Asseets/Images/HTML-CSS-JS.png" alt="" class="img-fluid rounded" width="500px">
+                <div class="col-sm-12 col-md-6 text-center p-3 d-none d-md-block">
+                    <img src="Asseets/Images/5210980.jpg" alt="" class="img-fluid rounded" width="350px">
                 </div>
             </div>
         </div>
