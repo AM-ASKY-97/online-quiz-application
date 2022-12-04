@@ -117,7 +117,7 @@ function quiz4() {
             ++count;
         }
 
-        document.getElementById('score').innerHTML = count;
+        $("#score").html(count);
 
         $('#quiz-4').hide();
         $('#scor').show();
