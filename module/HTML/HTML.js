@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    $('#quiz-2, #quiz-3, #quiz-4, #sco').hide();
+    $('#quiz-2, #quiz-3, #quiz-4, #scor').hide();
 
     quiz1();
     quiz2();
