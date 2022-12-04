@@ -16,6 +16,8 @@
 
     <!--jQuery CDN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -36,7 +38,7 @@
     <main>
         <div class="container mt-5">
             <!--Quiz 01 -->
-            <div class="card mb-3">
+            <div class="card mb-3" id="quiz-1">
                 <div class="card-header">
                     Question 1 of 40:
                 </div>
@@ -46,9 +48,9 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="f-ans1">
-                                <label class="form-check-label w-100" for="f-ans1">
+                                <input class="form-check-input" type="radio" name="ans-1"
+                                    id="ans-1-1">
+                                <label class="form-check-label w-100" for="ans-1-1">
                                     Hyper Text Markup Language
                                 </label>
                             </div>
@@ -56,93 +58,238 @@
                     </div>
                     <!--End Answer 01-->
 
-                    <!--Anser 01-->
+                    <!--Anser 02-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="f-ans2">
-                                <label class="form-check-label w-100" for="f-ans2">
+                                <input class="form-check-input" type="radio" name="ans-1"
+                                    id="ans-1-2">
+                                <label class="form-check-label w-100" for="ans-1-2">
                                     Hyperlinks and Text Markup Language
                                 </label>
                             </div>
                         </div>
                     </div>
-                    <!--End Answer 01-->
+                    <!--End Answer 02-->
 
-                    <!--Anser 01-->
+                    <!--Anser 03-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="f-ans3">
-                                <label class="form-check-label w-100" for="f-ans3">
+                                <input class="form-check-input" type="radio" name="ans-1"
+                                    id="ans-1-3">
+                                <label class="form-check-label w-100" for="ans-1-3">
                                     Home Tool Markup Language
                                 </label>
                             </div>
                         </div>
                     </div>
-                    <!--End Answer 01-->
+                    <!--End Answer 03-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-primary">Next</button>
+                    <button class="btn btn-success" id="ans-btn-1">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 01-->
 
 
-            <!--Quiz 01 -->
-            <div class="card mb-3">
+            <!--Quiz 02 -->
+            <div class="card mb-3" id="quiz-2">
                 <div class="card-header">
                     Question 2 of 40:
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Who is making the Web standards?</h5>
-                    <div class="card">
-                        <div class="list-group">
-                            <!--Answer 01-->
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="f-quiz" id="f-Answer1">
-                                    <label class="form-check-label w-100" for="f-Answer1">
-                                        Hyper Text Markup Language
-                                    </label>
-                                </div>
-                            </button>
-                            <!--End Answer 01-->
-
-                            <!--Answer 02-->
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="f-quiz" id="f-Answer2">
-                                    <label class="form-check-label w-100" for="f-Answer2">
-                                        Hyperlinks and Text Markup Language
-                                    </label>
-                                </div>
-                            </button>
-                            <!--End Answer 02-->
-
-                            <!--Answer 03-->
-                            <button type="button" class="list-group-item list-group-item-action">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="f-quiz" id="f-Answer3">
-                                    <label class="form-check-label w-100" for="f-Answer3">
-                                        Home Tool Markup Language
-                                    </label>
-                                </div>
-                            </button>
-                            <!--End Answer 03-->
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2"
+                                    id="ans-2-1">
+                                <label class="form-check-label w-100" for="ans-2-1">
+                                    Microsoft
+                                </label>
+                            </div>
                         </div>
                     </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2"
+                                    id="ans-2-2">
+                                <label class="form-check-label w-100" for="ans-2-2">
+                                    Google
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2"
+                                    id="ans-2-3">
+                                <label class="form-check-label w-100" for="ans-2-3">
+                                    The World Wide Web Consortium
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2"
+                                    id="ans-2-4">
+                                <label class="form-check-label w-100" for="ans-2-4">
+                                    Mozilla
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-primary">Next</button>
+                    <button class="btn btn-success" id="ans-btn-2">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
-            <!--End Quiz 01-->
+            <!--End Quiz 02-->
+
+
+             <!--Quiz 03 -->
+             <div class="card mb-3" id="quiz-3">
+                <div class="card-header">
+                    Question 3 of 40:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Choose the correct HTML element for the largest heading ?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-3-1">
+                                <label class="form-check-label w-100" for="ans-3-1">
+                                    <<span class="d-none">.</span>heading>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-3-2">
+                                <label class="form-check-label w-100" for="ans-3-2">
+                                    <<span class="d-none">.</span>h1>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-3-3">
+                                <label class="form-check-label w-100" for="ans-3-3">
+                                    <<span class="d-none">.</span>h6>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                     <!--Anser 04-->
+                     <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-3-4">
+                                <label class="form-check-label w-100" for="ans-3-4">
+                                    <<span class="d-none">.</span>head>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-3">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 03-->
+
+             <!--Quiz 04 -->
+             <div class="card mb-3" id="quiz-4">
+                <div class="card-header">
+                    Question 4 of 40:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">What is the correct HTML element for inserting a line break ?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-4-1">
+                                <label class="form-check-label w-100" for="ans-4-1">
+                                    <<span class="d-none">.</span>lb>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-4-2">
+                                <label class="form-check-label w-100" for="ans-4-2">
+                                    <<span class="d-none">.</span>break>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3"
+                                    id="ans-4-3">
+                                <label class="form-check-label w-100" for="ans-4-3">
+                                    <<span class="d-none">.</span>br>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-4">Finish<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 04-->
         </div>
     </main>
     <!--JavaScript File-->
+    <script src="HTML.js"></script>
     <script src="../../Asseets/Js/script.js"></script>
     <script src="../../Asseets/Css/bootstrap/js/bootstrap.min.js"></script>
 </body>
