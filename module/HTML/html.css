@@ -1,15 +1,12 @@
-.html-logo{
-    width: 50px;
+.c-title{
+    font-size: 1.1rem;
 }
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-   .html-logo{
-    width: 20px;
-    height: 25px;
-   }
+    .c-title{
+        font-size: 0.8rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
