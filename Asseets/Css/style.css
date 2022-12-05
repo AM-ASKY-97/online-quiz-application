@@ -1,11 +1,15 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,500;1,500&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,500;1,500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,500;1,500&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,800&family=Roboto:ital,wght@0,500;1,500&display=swap');
 
 * {
-    /*font-family: 'Poppins', sans-serif;*/
+    /*font-family: 'Poppins', sans-serif;
 
     font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -13,7 +17,7 @@ h1 {
 }
 
 .f-2 {
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .img-res {
@@ -23,6 +27,45 @@ h1 {
 .mar {
     margin-top: 40px;
 }
+
+.fa-smile-o{
+    transition: 500ms;
+    animation: color-change 10s infinite;
+}
+
+.uName{
+    transition: 500ms;
+    animation: color-change-name 10s infinite;
+}
+
+@keyframes color-change{
+    0%{
+        color: #2ecc71;
+    }
+
+    50%{
+        color: #3498db;
+    }
+
+    100%{
+        color: #e74c3c;
+    }
+}
+
+@keyframes color-change-name{
+    0%{
+        color: #575fcf;
+    }
+
+    50%{
+        color: #ff5e57;
+    }
+
+    100%{
+        color: #05c46b;
+    }
+}
+
 
 
 
@@ -72,7 +115,7 @@ h1 {
     }
 
     .f-2 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 }
 

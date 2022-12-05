@@ -10,6 +10,8 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link rel="stylesheet" href="Asseets/Css/bootstrap/css/bootstrap.min.css">
 
+    <script src="https://kit.fontawesome.com/2759fd8f76.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="Asseets/Css/style.css">
 
     <!--jQuery CDN-->
@@ -17,15 +19,13 @@
 </head>
 
 <body>
-
     <header class="sticky-top">
-        <nav class="navbar pt-3 pb-3 bg-primary bg-gradient">
+        <nav class="navbar pt-2 shadow pb-2 bg-primary bg-gradient">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="https://repository-images.githubusercontent.com/516792546/eb811d0b-7268-480b-a7fe-30b2993b9b8f"
-                        alt="Logo" width="30" height="25" class="d-inline-block align-text-top">
-                    <span class="d-none d-md-block text-light fw-bold font-monospace fs-4">Online Quiz</span>
-                    <span class="text-light fw-bold font-monospace fs-5 d-md-none">Online Quiz</span>
+                    <img src="Asseets/Images/m-logo.png" alt="Logo" width="45" height="35"
+                        class="d-inline-block align-text-top">
+                    <span class="text-light fw-bold font-monospace">E-education</span>
                 </a>
             </div>
         </nav>
@@ -45,7 +45,10 @@
                         <h2 class="d-none d-md-block fs-1">Hello There!</h2>
                         <h2 class="text-primary fw-bold font-monospace d-md-none">Hello There!</h2>
 
-                        <p>Welcome to my online qiuz app</p>
+                        <p class="text-muted">Welcome to My Online Qiuz <i class="fa fa-smile-o" aria-hidden="true"></i>
+                        </p>
+
+                        <hr>
 
                         <p style="text-align:justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
                             cum est necessitatibus
@@ -54,16 +57,20 @@
                             quo
                             necessitatibus magni soluta quasi?</p>
 
+                        <p style="text-align:justify">Hello <span id="uName" class="text-primary"></span> Test your skills
+                            with these
+                            quizzes.</p>
+
                         <form action="">
                             <div class="row mb-3">
                                 <div class="col-12">
-                                    <input type="text" name="" id="name" placeholder="enter your name"
+                                    <input type="text" name="" id="name" placeholder="Enter your name"
                                         class="form-control" oninput="myInput()">
                                     <span id="errorName" class="text-danger"></span>
                                 </div>
                             </div>
 
-                            <input type="button" value="start your quizzes" class="btn btn-primary" id="userName">
+                            <button type="button" id="userName" class="btn btn-primary">Getting Started!</button>
                         </form>
                     </div>
 
