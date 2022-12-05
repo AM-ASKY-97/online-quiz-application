@@ -40,11 +40,11 @@ h1 {
 
 @keyframes color-change{
     0%{
-        color: #2ecc71;
+        color: #05c46b;
     }
 
     50%{
-        color: #3498db;
+        color: #575fcf;
     }
 
     100%{
