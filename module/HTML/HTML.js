@@ -1,11 +1,17 @@
 $(document).ready(function () {
 
-    $('#quiz-2, #quiz-3, #quiz-4, #scor').hide();
+    $('#quiz-2, #quiz-3, #quiz-4, #quiz-5, #quiz-6, #quiz-7, #quiz-8, #quiz-9, #quiz-10, #scor').hide();
 
     quiz1();
     quiz2();
     quiz3();
     quiz4();
+    quiz5();
+    quiz6();
+    quiz7();
+    quiz8();
+    quiz9();
+    quiz10();
 });
 
 var count = 0;
@@ -117,9 +123,116 @@ function quiz4() {
             ++count;
         }
 
-        $("#score").html(count);
+        //$("#score").html(count);
 
         $('#quiz-4').hide();
-        $('#scor').show();
+        $('#quiz-5').show();
+    });
+}
+
+function quiz5() {
+    $('#ans-btn-5').prop('disabled', true);
+
+    $('#ans-5-1').on('change', function () {
+        $('#ans-btn-5').prop('disabled', false);
+    });
+
+    $('#ans-5-2').on('change', function () {
+        $('#ans-btn-5').prop('disabled', false);
+    });
+
+    $('#ans-5-3').on('change', function () {
+        $('#ans-btn-5').prop('disabled', false);
+    });
+
+    $('#ans-btn-5').on('click', function () {
+
+        if ($("#ans-5-2").is(":checked")) {
+            ++count;
+        }
+
+        //$("#score").html(count);
+
+        $('#quiz-5').hide();
+        $('#quiz-6').show();
+    });
+}
+
+function quiz6() {
+    $('#ans-btn-6').prop('disabled', true);
+
+    $('#ans-6-1').on('change', function () {
+        $('#ans-btn-6').prop('disabled', false);
+    });
+
+    $('#ans-6-2').on('change', function () {
+        $('#ans-btn-6').prop('disabled', false);
+    });
+
+    $('#ans-6-3').on('change', function () {
+        $('#ans-btn-6').prop('disabled', false);
+    });
+
+    $('#ans-6-4').on('change', function () {
+        $('#ans-btn-6').prop('disabled', false);
+    });
+
+
+    $('#ans-btn-6').on('click', function () {
+
+        if ($("#ans-6-4").is(":checked")) {
+            ++count;
+        }
+
+        $('#quiz-6').hide();
+        $('#quiz-7').show();
+    });
+}
+
+function quiz7() {
+    $('#ans-btn-7').prop('disabled', true);
+
+    $('#ans-7-1').on('change', function () {
+        $('#ans-btn-7').prop('disabled', false);
+    });
+
+    $('#ans-7-2').on('change', function () {
+        $('#ans-btn-7').prop('disabled', false);
+    });
+
+    $('#ans-7-3').on('change', function () {
+        $('#ans-btn-7').prop('disabled', false);
+    });
+
+    $('#ans-btn-7').on('click', function () {
+
+        if ($("#ans-7-1").is(":checked")) {
+            ++count;
+        }
+
+        $('#quiz-7').hide();
+        $('#quiz-8').show();
+    });
+}
+
+function quiz8() {
+    $('#ans-btn-8').prop('disabled', true);
+
+    $('#ans-8-1').on('change', function () {
+        $('#ans-btn-8').prop('disabled', false);
+    });
+
+    $('#ans-8-2').on('change', function () {
+        $('#ans-btn-8').prop('disabled', false);
+    });
+
+    $('#ans-btn-8').on('click', function () {
+
+        if ($("#ans-8-1").is(":checked")) {
+            ++count;
+        }
+
+        $('#quiz-8').hide();
+        $('#quiz-9').show();
     });
 }
