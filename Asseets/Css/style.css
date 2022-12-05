@@ -33,6 +33,10 @@ h1 {
     animation: color-change 10s infinite;
 }
 
+.mt-10{
+    margin-top: -150;
+}
+
 .bd-gutter {
     --bs-gutter-x: 3rem;
 }
