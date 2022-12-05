@@ -236,3 +236,72 @@ function quiz8() {
         $('#quiz-9').show();
     });
 }
+
+function quiz9() {
+    $('#ans-btn-9').prop('disabled', true);
+
+    $('#ans-9-1').on('change', function () {
+        $('#ans-btn-9').prop('disabled', false);
+    });
+
+    $('#ans-9-2').on('change', function () {
+        $('#ans-btn-9').prop('disabled', false);
+    });
+
+    $('#ans-9-3').on('change', function () {
+        $('#ans-btn-9').prop('disabled', false);
+    });
+
+    $('#ans-9-4').on('change', function () {
+        $('#ans-btn-9').prop('disabled', false);
+    });
+
+    $('#ans-btn-9').on('click', function () {
+
+        if ($("#ans-9-1").is(":checked")) {
+            ++count;
+        }
+
+        $('#quiz-9').hide();
+        $('#quiz-10').show();
+    });
+}
+
+
+function quiz10() {
+    $('#ans-btn-10').prop('disabled', true);
+
+    $('#ans-10-1').on('change', function () {
+        $('#ans-btn-10').prop('disabled', false);
+    });
+
+    $('#ans-10-2').on('change', function () {
+        $('#ans-btn-10').prop('disabled', false);
+    });
+
+    $('#ans-10-3').on('change', function () {
+        $('#ans-btn-10').prop('disabled', false);
+    });
+
+    $('#ans-btn-10').on('click', function () {
+
+        if ($("#ans-10-1").is(":checked")) {
+            ++count;
+        }
+
+        $("#score").html(count);
+
+        var avg = count/10;
+
+        var nAvg = avg * 100;
+
+        $("#avg").html(nAvg);
+
+        if(count < 7){
+            $("#mes").html("You must study much harder!");
+        }
+
+        $('#quiz-10').hide();
+        $('#scor').show();
+    });
+}
