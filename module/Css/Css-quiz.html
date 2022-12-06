@@ -12,9 +12,12 @@
 
     <!--Style Css-->
     <link rel="stylesheet" href="../../Asseets/Css/style.css">
+    <link rel="stylesheet" href="style-css.css">
 
     <!--jQuery CDN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -23,7 +26,7 @@
         <nav class="navbar pt-3 shadow pb-3 bg-primary bg-gradient">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="Asseets/Images/m-logo.png" alt="Logo" width="45" height="35"
+                    <img src="../../Asseets/Images/m-logo.png" alt="Logo" width="45" height="35"
                         class="d-inline-block align-text-top">
                     <span class="text-light fw-bold font-monospace">E-education</span>
                 </a>
@@ -33,12 +36,645 @@
 
 
     <main>
+
         <div class="container mt-3">
-            <p class="h5 f-2 fw-bold">Css Quiz</p>
+            <div class="row  ">
+                <div class="col pt-3">
+                    <p class="h5 f-2 fw-bold">Css Quiz</p>
+                </div>
+                <div class="col text-end"><a href="../../courses.html" class="btn btn-primary back-btn">Back</a></div>
+            </div>
             <hr>
+        </div>
+
+        <div class="container mt-5">
+            <!--Quiz 01 -->
+            <div class="card mb-3" id="quiz-1">
+                <div class="card-header">
+                    Question 1 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">What does CSS stand for?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-1-1">
+                                    Colorful Style Sheets
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-1-2">
+                                    Computer Style Sheets
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-1-3">
+                                    Cascading Style Sheets
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-4">
+                                <label class="form-check-label w-100 m-hover" for="ans-1-4">
+                                    Creative Style Sheets
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-1">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 01-->
+
+
+            <!--Quiz 02 -->
+            <div class="card mb-3" id="quiz-2">
+                <div class="card-header">
+                    Question 2 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">What is the correct HTML for referring to an external style sheet?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-2-1">
+                                    <<span>.</span>stylesheet>mystyle.css<<span>.</span>/stylesheet>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-2-2">
+                                    <<span>.</span>link rel="stylesheet" type="text/css" href="mystyle.css">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-2-3">
+                                    <<span>.</span>style src="mystyle.css">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-2">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 02-->
+
+
+            <!--Quiz 03 -->
+            <div class="card mb-3" id="quiz-3">
+                <div class="card-header">
+                    Question 3 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Where in an HTML document is the correct place to refer to an external style
+                        sheet?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-3-1">
+                                    In the <<span class="d-none">.</span>head> section
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-3-2">
+                                    In the <<span class="d-none">.</span>body> section
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-3-3">
+                                    At the end of the document
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-3">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 03-->
+
+
+            <!--Quiz 04 -->
+            <div class="card mb-3" id="quiz-4">
+                <div class="card-header">
+                    Question 4 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Which HTML tag is used to define an internal style sheet?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-4" id="ans-4-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-4-1">
+                                    <<span class="d-none">.</span>script>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-4" id="ans-4-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-4-2">
+                                    <<span class="d-none">.</span>css>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-4" id="ans-4-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-4-3">
+                                    <<span class="d-none">.</span>style>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-4">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 04-->
+
+
+            <!--Quiz 05 -->
+            <div class="card mb-3" id="quiz-5">
+                <div class="card-header">
+                    Question 5 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Which HTML attribute is used to define inline styles?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-5" id="ans-5-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-5-1">
+                                    styles
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-5" id="ans-5-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-5-2">
+                                    class
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-5" id="ans-5-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-5-3">
+                                    font
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-5" id="ans-5-4">
+                                <label class="form-check-label w-100 m-hover" for="ans-5-4">
+                                    style
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-5">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 05-->
+
+
+            <!--Quiz 06 -->
+            <div class="card mb-3" id="quiz-6">
+                <div class="card-header">
+                    Question 6 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Which is the correct CSS syntax?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-6-1">
+                                    body {color: black;}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-6-2">
+                                    body:color=black;
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-6-3">
+                                    {body:color=black;}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-4">
+                                <label class="form-check-label w-100 m-hover" for="ans-6-4">
+                                    {body;color:black;}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-6">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 06-->
+
+            <!--Quiz 07 -->
+            <div class="card mb-3" id="quiz-7">
+                <div class="card-header">
+                    Question 7 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">How do you insert a comment in a CSS file?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-7-1">
+                                    // this is a comment
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-7-2">
+                                    /* this is a comment */
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-7-3">
+                                    ' this is a comment
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-4">
+                                <label class="form-check-label w-100 m-hover" for="ans-7-4">
+                                    // this is a comment //
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-7">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 07-->
+
+            <!--Quiz 08 -->
+            <div class="card mb-3" id="quiz-8">
+                <div class="card-header">
+                    Question 8 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Which property is used to change the background color?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-8-1">
+                                    color
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-8-2">
+                                    bgcolor
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-8-3">
+                                    background-color
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-8">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 08-->
+
+            <!--Quiz 09 -->
+            <div class="card mb-3" id="quiz-9">
+                <div class="card-header">
+                    Question 9 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">How do you add a background color for all <<span>.</span>h1> elements?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-9-1">
+                                    h1 {background-color:#FFFFFF;}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-9-2">
+                                    all.h1 {background-color:#FFFFFF;}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-9-3">
+                                    h1.all {background-color:#FFFFFF;}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-9">Next Quiz<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 09-->
+
+            <!--Quiz 10 -->
+            <div class="card mb-3" id="quiz-10">
+                <div class="card-header">
+                    Question 10 of <span class="total-quiz"></span>:
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Which CSS property is used to change the text color of an element?</h5>
+                    <!--Anser 01-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-10" id="ans-10-1">
+                                <label class="form-check-label w-100 m-hover" for="ans-10-1">
+                                    color
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 01-->
+
+                    <!--Anser 02-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-10" id="ans-10-2">
+                                <label class="form-check-label w-100 m-hover" for="ans-10-2">
+                                    fgcolor
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-10" id="ans-10-3">
+                                <label class="form-check-label w-100 m-hover" for="ans-10-3">
+                                    text-color
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+                </div>
+                <div class="card-footer text-end">
+                    <button class="btn btn-success" id="ans-btn-10">Finish Attempt<span style="margin-left: 5px;"><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+            <!--End Quiz 10-->
+        </div>
+
+        <!--score -->
+        <div class="container" id="scor">
+            <div class="row d-flex justify-content-center">
+                <div class="col col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-header fs-2">
+                            Result:
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="fs-4"><span id="score"></span> of 10</div>
+
+                            <div class="fs-5"><span id="avg"></span> %</div>
+
+                            <div class="fs-5"><span id="mes"></span></div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row ">
+                                <div class="col-12 col-lg-5 mb-2"><a href="" class="btn btn-success">Check your
+                                        answers</a></div>
+                                <div class="col-12 col-lg-3 mb-2"><a href="" class="btn btn-primary">Try Again</a>
+                                </div>
+                                <div class="col-12 col-lg-4"><a href="../../courses.html" class="btn btn-warning">Back
+                                        to Quizzes</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--score-->
+
+        <div class="container mt-5 pt-4 pb-4 bg-light">
+            <div class="f4">Study HTML in our <a href="https://www.w3schools.com/css/default.asp">Css Tutorial</a>
+            </div>
         </div>
     </main>
     <!--JavaScript File-->
+    <script src="Css.js"></script>
     <script src="../../Asseets/Js/script.js"></script>
     <script src="../../Asseets/Css/bootstrap/js/bootstrap.min.js"></script>
 </body>

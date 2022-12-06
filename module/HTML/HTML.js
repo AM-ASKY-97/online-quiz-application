@@ -37,6 +37,8 @@ function quiz1() {
             ++count;
         }
 
+        $('.back-btn').hide();
+
         $('#quiz-1').hide();
         $('#quiz-2').show();
     });
