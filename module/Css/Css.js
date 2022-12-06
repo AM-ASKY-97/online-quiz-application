@@ -41,7 +41,7 @@ function quiz1() {
         if ($("#ans-1-3").is(":checked")) {
             ++count;
         }
-
+        $('.back-btn').hide();
         $('#quiz-1').hide();
         $('#quiz-2').show();
     });
