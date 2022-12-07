@@ -2,6 +2,18 @@ $(document).ready(function () {
     validate();
 });
 
+$('#pharmacy').on('click', function(){
+    window.location.href = "https://github.com/AM-ASKY-97/Laravel-Pharmacy-Management-System";
+});
+
+$('#hardy').on('click', function(){
+    window.location.href = "https://github.com/AM-ASKY-97/Web-Base-Of-The-Particular-Institution";
+});
+
+$('#nic').on('click', function(){
+    window.location.href = "https://github.com/AM-ASKY-97/Sri-Lanka-NIC-Calculator";
+});
+
 function validate() {
     $("#userName").click(function () {
         var name = $("#name").val();
