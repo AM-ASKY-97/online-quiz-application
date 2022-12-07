@@ -29,11 +29,6 @@ h1 {
     margin-top: 40px;
 }
 
-.fa-smile-o{
-    transition: 500ms;
-    animation: color-change 10s infinite;
-}
-
 .uName{
     transition: 500ms;
     animation: color-change-name 10s infinite;
@@ -51,6 +46,11 @@ h1 {
     cursor: pointer;
 }
 
+.fa-smile-o{
+    transition: 500ms;
+    animation: color-change 10s infinite;
+}
+
 @keyframes color-change{
     0%{
         color: #05c46b;
@@ -63,6 +63,11 @@ h1 {
     100%{
         color: #e74c3c;
     }
+}
+
+.name{
+    transition: 500ms;
+    animation: color-change-name 10s infinite;
 }
 
 @keyframes color-change-name{
