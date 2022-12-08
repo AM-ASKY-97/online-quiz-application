@@ -299,8 +299,13 @@ function quiz10() {
 
         $("#avg").html(nAvg);
 
-        if(count < 7){
+        if(count < 8){
             $("#mes").html("You must study much harder!");
+        }
+
+        else
+        {
+            $("#mes").html("You can be proud of yourself!");
         }
 
         $('#quiz-10').hide();
