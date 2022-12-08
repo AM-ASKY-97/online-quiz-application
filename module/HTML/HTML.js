@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('#quiz-2, #quiz-3, #quiz-4, #quiz-5, #quiz-6, #quiz-7, #quiz-8, #quiz-9, #quiz-10, #scor').hide();
+    $('#quiz-2, #quiz-3, #quiz-4, #quiz-5, #quiz-6, #quiz-7, #quiz-8, #quiz-9, #quiz-10, #scor, #success-img').hide();
 
     quiz1();
     quiz2();
@@ -299,13 +299,19 @@ function quiz10() {
 
         $("#avg").html(nAvg);
 
-        if(count < 8){
-            $("#mes").html("You must study much harder!");
+        if(count == 10)
+        {
+            $("#mes").html("Perfect!!!");
+            $("#success-img").show();
+        }
+
+        else if(count > 7){
+            $("#mes").html("You can be proud of yourself!");
         }
 
         else
         {
-            $("#mes").html("You can be proud of yourself!");
+            $("#mes").html("You must study much harder!");
         }
 
         $('#quiz-10').hide();
