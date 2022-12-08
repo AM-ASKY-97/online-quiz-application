@@ -5,19 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Quiz Answers</title>
+    <title>JavaScript Quiz</title>
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link rel="stylesheet" href="../../Asseets/Css/bootstrap/css/bootstrap.min.css">
 
     <!--Style Css-->
     <link rel="stylesheet" href="../../Asseets/Css/style.css">
-    <link rel="stylesheet" href="html.css">
 
     <!--jQuery CDN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -26,41 +23,40 @@
         <nav class="navbar pt-2 shadow pb-2 bg-primary bg-gradient">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="../../Asseets/Images/m-logo.png" alt="Logo" width="45" height="35"
-                        class="d-inline-block align-text-top">
+                    <img src="../../Asseets/Images/m-logo.png" alt="Logo" width="45" height="35" class="d-inline-block align-text-top">
                     <span class="text-light fw-bold font-monospace">E-education</span>
                 </a>
             </div>
         </nav>
     </header>
 
-    <main>
 
+    <main>
         <div class="container mt-3">
-            <div class="row">
+            <div class="row  ">
                 <div class="col pt-3">
-                    <p class="h5 f-2 fw-bold">HTML Quiz Answers</p>
+                    <p class="h5 f-2 fw-bold">JavaScript Quiz</p>
                 </div>
                 <div class="col text-end"><a href="../../courses.html" class="btn btn-primary back-btn">Back</a></div>
             </div>
             <hr>
         </div>
 
-        <div class="container mt-4">
+        <div class="container mt-5">
             <!--Quiz 01 -->
             <div class="card mb-3" id="quiz-1">
                 <div class="card-header">
                     Question 1 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">What does HTML stand for?</h5>
+                    <h5 class="card-title">Inside which HTML element do we put the JavaScript?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-1" checked>
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-1-1">
-                                    Hyper Text Markup Language
+                                    <<span class="d-none">.</span>scripting>
                                 </label>
                             </div>
                         </div>
@@ -73,7 +69,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-1" id="ans-1-2" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-1-2">
-                                    Hyperlinks and Text Markup Language
+                                    <<span class="d-none">.</span>javascript>
                                 </label>
                             </div>
                         </div>
@@ -84,22 +80,33 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-3" disabled>
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-3" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-1-3">
-                                    Home Tool Markup Language
+                                    <<span class="d-none">.</span>script>
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-1" id="ans-1-4" disabled>
+                                <label class="form-check-label w-100 m-hover" for="ans-1-4">
+                                    <<span class="d-none">.</span>js>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-1">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-1">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 01-->
-
 
             <!--Quiz 02 -->
             <div class="card mb-3" id="quiz-2">
@@ -107,14 +114,14 @@
                     Question 2 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Who is making the Web standards?</h5>
+                    <h5 class="card-title">Where is the correct place to insert a JavaScript?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-1" disabled>
+                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-1" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-2-1">
-                                    Microsoft
+                                    Both the <<span class="d-none">.</span>head> section and the <<span class="d-none">.</span>body> section are correct
                                 </label>
                             </div>
                         </div>
@@ -127,7 +134,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-2" id="ans-2-2" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-2-2">
-                                    Google
+                                    The <<span class="d-none">.</span>head> section
                                 </label>
                             </div>
                         </div>
@@ -138,35 +145,20 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-3" checked>
+                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-3" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-2-3">
-                                    The World Wide Web Consortium
+                                    The <<span class="d-none">.</span>body> section
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
-
-                    <!--Anser 04-->
-                    <div>
-                        <div class="shadow-none p-3 mb-1 bg-light rounded">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-2" id="ans-2-4" disabled>
-                                <label class="form-check-label w-100 m-hover" for="ans-2-4">
-                                    Mozilla
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-2">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-2">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 02-->
-
 
             <!--Quiz 03 -->
             <div class="card mb-3" id="quiz-3">
@@ -174,14 +166,14 @@
                     Question 3 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Choose the correct HTML element for the largest heading ?</h5>
+                    <h5 class="card-title">What is the correct syntax for referring to an external script called "xxx.js"?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-3" id="ans-3-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-3-1">
-                                    <<span class="d-none">.</span>heading>
+                                    <<span class="d-none">.</span>script name="xxx.js">
                                 </label>
                             </div>
                         </div>
@@ -192,9 +184,9 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-2" checked>
+                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-2" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-3-2">
-                                    <<span class="d-none">.</span>h1>
+                                    <<span class="d-none">.</span>script href="xxx.js">
                                 </label>
                             </div>
                         </div>
@@ -205,31 +197,17 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-3" disabled>
+                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-3" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-3-3">
-                                    <<span class="d-none">.</span>h6>
+                                    <<span class="d-none">.</span>script src="xxx.js">
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
-
-                    <!--Anser 04-->
-                    <div>
-                        <div class="shadow-none p-3 mb-1 bg-light rounded">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-3" id="ans-3-4" disabled>
-                                <label class="form-check-label w-100 m-hover" for="ans-3-4">
-                                    <<span class="d-none">.</span>head>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-3">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-3">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 03-->
@@ -240,14 +218,14 @@
                     Question 4 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">What is the correct HTML element for inserting a line break ?</h5>
+                    <h5 class="card-title">The external JavaScript file must contain the <<span class="d-none">.</span>script> tag.</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-4" id="ans-4-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-4-1">
-                                    <<span class="d-none">.</span>lb>
+                                    True
                                 </label>
                             </div>
                         </div>
@@ -258,31 +236,17 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-4" id="ans-4-2" disabled>
+                                <input class="form-check-input" type="radio" name="ans-4" id="ans-4-2" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-4-2">
-                                    <<span class="d-none">.</span>break>
+                                    False
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 02-->
-
-                    <!--Anser 03-->
-                    <div>
-                        <div class="shadow-none p-3 mb-1 bg-light rounded">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-4" id="ans-4-3" checked>
-                                <label class="form-check-label w-100 m-hover" for="ans-4-3">
-                                    <<span class="d-none">.</span>br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Answer 03-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-4">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-4">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 04-->
@@ -293,15 +257,14 @@
                     Question 5 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">What is the correct HTML for adding a background color?</h5>
+                    <h5 class="card-title">How do you write "Hello World" in an alert box?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-5" id="ans-5-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-5-1">
-                                    <<span class="d-none">.</span>background>yellow<<span class="d-none">
-                                            .</span>/background>
+                                    msg("Hello World");
                                 </label>
                             </div>
                         </div>
@@ -314,7 +277,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-5" id="ans-5-2" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-5-2">
-                                    <<span class="d-none">.</span>body style="background-color:yellow;">
+                                    alert("Hello World");
                                 </label>
                             </div>
                         </div>
@@ -327,16 +290,28 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-5" id="ans-5-3" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-5-3">
-                                    <<span class="d-none">.</span>body bg="yellow"><<span class="d-none">.</span>/body>
+                                    msgBox("Hello World");
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-5" id="ans-5-4" disabled>
+                                <label class="form-check-label w-100 m-hover" for="ans-5-4">
+                                    alertBox("Hello World");
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-5">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-5">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 05-->
@@ -347,14 +322,14 @@
                     Question 6 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Choose the correct HTML element to define important text</h5>
+                    <h5 class="card-title">How do you create a function in JavaScript?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-6" id="ans-6-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-6-1">
-                                    <<span class="d-none">.</span>i>
+                                    function:myFunction()
                                 </label>
                             </div>
                         </div>
@@ -365,9 +340,9 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-2" disabled>
+                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-2" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-6-2">
-                                    <<span class="d-none">.</span>important><<span class="d-none">.</span>/important>
+                                    function myFunction()
                                 </label>
                             </div>
                         </div>
@@ -380,33 +355,18 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-6" id="ans-6-3" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-6-3">
-                                    <<span class="d-none">.</span>b>
+                                    function = myFunction()
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
-
-                    <!--Anser 04-->
-                    <div>
-                        <div class="shadow-none p-3 mb-1 bg-light rounded">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-6" id="ans-6-4" checked>
-                                <label class="form-check-label w-100 m-hover" for="ans-6-4">
-                                    <<span class="d-none">.</span>strong>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-6">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-6">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 06-->
-
 
             <!--Quiz 07 -->
             <div class="card mb-3" id="quiz-7">
@@ -414,14 +374,14 @@
                     Question 7 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Choose the correct HTML element to define emphasized text</h5>
+                    <h5 class="card-title">How do you call a function named "myFunction"?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-1" checked>
+                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-7-1">
-                                    <<span class="d-none">.</span>em>
+                                    call myFunction()
                                 </label>
                             </div>
                         </div>
@@ -432,9 +392,9 @@
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-2" disabled>
+                                <input class="form-check-input" type="radio" name="ans-7" id="ans-7-2" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-7-2">
-                                    <<span class="d-none">.</span>i>
+                                    myFunction()
                                 </label>
                             </div>
                         </div>
@@ -447,7 +407,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-7" id="ans-7-3" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-7-3">
-                                    <<span class="d-none">.</span>italic>
+                                    call function myFunction()
                                 </label>
                             </div>
                         </div>
@@ -455,12 +415,10 @@
                     <!--End Answer 03-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-7">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-7">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 07-->
-
 
             <!--Quiz 08 -->
             <div class="card mb-3" id="quiz-8">
@@ -468,14 +426,14 @@
                     Question 8 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Inline elements are normally displayed without starting a new line.</h5>
+                    <h5 class="card-title">How to write an IF statement in JavaScript?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-1" checked>
+                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-8-1">
-                                    True
+                                    if i = 5 then
                                 </label>
                             </div>
                         </div>
@@ -488,20 +446,44 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-8" id="ans-8-2" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-8-2">
-                                    False
+                                    if i = 5
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 02-->
+
+                    <!--Anser 03-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-3" checked>
+                                <label class="form-check-label w-100 m-hover" for="ans-8-3">
+                                    if (i == 5)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-8" id="ans-8-4" disabled>
+                                <label class="form-check-label w-100 m-hover" for="ans-8-4">
+                                    if i == 5 then
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-8">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-8">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 08-->
-
 
             <!--Quiz 09 -->
             <div class="card mb-3" id="quiz-9">
@@ -509,17 +491,14 @@
                     Question 9 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Which of these elements are all <<span class="d-none">.</span>table>
-                            elements?</h5>
+                    <h5 class="card-title">How does a FOR loop start?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-1" checked>
+                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-9-1">
-                                    <<span class="d-none">.</span>table><<span class="d-none">.</span>tr><<span
-                                                class="d-none">.</span>td>
-                                </label>
+                                    for (i <= 5; i++) </label>
                             </div>
                         </div>
                     </div>
@@ -531,8 +510,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-9" id="ans-9-2" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-9-2">
-                                    <<span class="d-none">.</span>thead><<span class="d-none">.</span>body><<span
-                                                class="d-none">.</span>tr>
+                                    for i = 1 to 5
                                 </label>
                             </div>
                         </div>
@@ -545,32 +523,26 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-9" id="ans-9-3" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-9-3">
-                                    <<span class="d-none">.</span>table><<span class="d-none">.</span>tr><<span
-                                                class="d-none">.</span>tt>
-                                </label>
+                                    for (i = 0; i <= 5) </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
 
-
                     <!--Anser 04-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-4" disabled>
+                                <input class="form-check-input" type="radio" name="ans-9" id="ans-9-4" checked>
                                 <label class="form-check-label w-100 m-hover" for="ans-9-4">
-                                    <<span class="d-none">.</span>table><<span class="d-none">.</span>tr><<span
-                                                class="d-none">.</span>tt>
-                                </label>
+                                    for (i = 0; i <= 5; i++) </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-end">
-                    <button class="btn btn-success" id="ans-btn-9">Next Quiz<span style="margin-left: 5px;"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    <button class="btn btn-success" id="ans-btn-9">Next Quiz<span style="margin-left: 5px;"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
                 </div>
             </div>
             <!--End Quiz 09-->
@@ -578,18 +550,17 @@
             <!--Quiz 10 -->
             <div class="card mb-3" id="quiz-10">
                 <div class="card-header">
-                    Question 10 of 40:
+                    Question 10 of <span class="total-quiz"></span>:
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">An <<span class="d-none">.</span>iframe> is used to display a web page within
-                            a web page.</h5>
+                    <h5 class="card-title">What is the correct way to write a JavaScript array?</h5>
                     <!--Anser 01-->
                     <div>
                         <div class="shadow-none p-3 mb-1 bg-light rounded">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="ans-10" id="ans-10-1" checked>
+                                <input class="form-check-input" type="radio" name="ans-10" id="ans-10-1" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-10-1">
-                                    True
+                                    var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")
                                 </label>
                             </div>
                         </div>
@@ -602,7 +573,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-10" id="ans-10-2" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-10-2">
-                                    There is no such thing as an <<span class="d-none">.</span>iframe>
+                                    var colors = "red", "green", "blue"
                                 </label>
                             </div>
                         </div>
@@ -615,31 +586,38 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="ans-10" id="ans-10-3" disabled>
                                 <label class="form-check-label w-100 m-hover" for="ans-10-3">
-                                    False
+                                    var colors = (1:"red", 2:"green", 3:"blue")
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!--End Answer 03-->
+
+                    <!--Anser 04-->
+                    <div>
+                        <div class="shadow-none p-3 mb-1 bg-light rounded">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ans-10" id="ans-10-4" checked>
+                                <label class="form-check-label w-100 m-hover" for="ans-10-4">
+                                    var colors = ["red", "green", "blue"]
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Answer 04-->
                 </div>
                 <div class="card-footer text-center">
                     <div class="row">
-                        <div class="col-12 col-md-6 mb-2"><a href="html-quiz.html" class="btn btn-primary">Try Again</a>
+                        <div class="col-12 col-md-6 mb-2"><a href="php-quiz.html" class="btn btn-primary">Try Again</a>
                         </div>
                         <div class="col-12 col-md-6"><a href="../../courses.html" class="btn btn-warning">Back
                                 to Quizzes</a></div>
                     </div>
                 </div>
             </div>
-            <!--End Quiz 09-->
-        </div>
-
-        <div class="container mt-5 pt-4 pb-4 bg-light">
-            <div class="f4">Study HTML in our <a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a>
-            </div>
+            <!--End Quiz 10-->
         </div>
     </main>
-
 
     <footer>
         <div class="container-fluid bg-dark bg-gradient text-white" style="min-height: 150px;">
@@ -672,24 +650,17 @@
                         <hr width="60px" style="margin-top: -8px;">
 
                         <p>
-                            <a href="https://www.facebook.com/mohammed.asky.9" style="margin-right: 5px;"><img
-                                    src="../../Asseets/Images/Social/face.png" alt="" width="30px"></a>
-                            <a href="https://www.linkedin.com/in/asky-mohammed-02742921b/"
-                                style="margin-right: 5px;"><img src="../../Asseets/Images/Social/Link.png" alt=""
-                                    width="30px"></a>
-                            <a href="" style="margin-right: 5px;"><img src="../../Asseets/Images/Social/whatsapp-.png" alt=""
-                                    width="30px"></a>
-                            <a href="https://www.youtube.com/channel/UC5YJmG0NFNyZaZsvyGcQAWQ"
-                                style="margin-right: 5px;"><img src="../../Asseets/Images/Social/Youtube.png" alt=""
-                                    width="30px"></a>
+                            <a href="https://www.facebook.com/mohammed.asky.9" style="margin-right: 5px;"><img src="../../Asseets/Images/Social/face.png" alt="" width="30px"></a>
+                            <a href="https://www.linkedin.com/in/asky-mohammed-02742921b/" style="margin-right: 5px;"><img src="../../Asseets/Images/Social/Link.png" alt="" width="30px"></a>
+                            <a href="" style="margin-right: 5px;"><img src="../../Asseets/Images/Social/whatsapp-.png" alt="" width="30px"></a>
+                            <a href="https://www.youtube.com/channel/UC5YJmG0NFNyZaZsvyGcQAWQ" style="margin-right: 5px;"><img src="../../Asseets/Images/Social/Youtube.png" alt="" width="30px"></a>
                         </p>
                     </div>
                 </div>
 
                 <hr>
 
-                <div class="pb-3" style="font-size: 0.9rem; text-align:justify; font-weight:300;">Created By <span
-                        class="name">Asky AM</span> | &#169; 2022 All rights reserved.</div>
+                <div class="pb-3" style="font-size: 0.9rem; text-align:justify; font-weight:300;">Created By <span class="name">Asky AM</span> | &#169; 2022 All rights reserved.</div>
             </div>
         </div>
     </footer>
